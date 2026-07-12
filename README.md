@@ -56,3 +56,8 @@ Here are examples of the model's decision-making process based on sample inputs:
 
 ![Case_Rejected](image/Case_Rejected.png)
 
+## 🚀 Recommendations for Further Improvement
+To further enhance the robustness and accuracy of this system, the following improvements are recommended:
+
+* **Data Diversity:** The current model is trained on a specific dataset. Integrating a more diverse dataset—covering various demographics, economic conditions, and loan types—would significantly improve the model’s generalization capabilities.
+* **Feature Engineering:** Exploring additional features such as credit card usage patterns, employment history length, or current debt-to-income ratios could provide deeper insights for better prediction.
