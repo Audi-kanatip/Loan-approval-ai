@@ -23,6 +23,7 @@ Evaluated using the Home Loan Approval Dataset from Kaggle:
 * **Accuracy:** 80.54% 
 * **F1-Score:** 0.863 
 * **Recall:** 0.890 
+
 ![Model Performance](image/Model_Performance.png)
 
 ## 🚀 How to use
@@ -43,6 +44,7 @@ Here are examples of the model's decision-making process based on sample inputs:
     * **Applicant Income**: 300, **Coapplicant Income**: 0
     * **Loan Amount**: 1,000, **Term**: 12 months, **Credit History**: 1.0, **Area**: Rural
 * **Result**: ✅ **Approved** (Probability: 0.91)
+
 ![Case_Approved](image/Case_Approved.png)
 
 ### Case 2: Rejected Loan
@@ -51,5 +53,6 @@ Here are examples of the model's decision-making process based on sample inputs:
     * **Applicant Income**: 200, **Coapplicant Income**: 0
     * **Loan Amount**: 1,000, **Term**: 72 months, **Credit History**: 0.0, **Area**: Rural
 * **Result**: ❌ **Rejected** (Probability: 0.43)
+
 ![Case_Rejected](image/Case_Rejected.png)
 
